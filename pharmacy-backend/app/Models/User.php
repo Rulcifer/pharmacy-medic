@@ -65,7 +65,6 @@ class User extends Authenticatable implements JWTSubject
     }
 
     /**
-     * Override method untuk menggunakan username sebagai pengganti email.
      */
     public function findForPassport($username)
     {
